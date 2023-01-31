@@ -1,0 +1,74 @@
+/* [Card login] by Skaygox#4008 */
+/* [Discord] : https://discord.gg/2xJSk9pwFC */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 26px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f9f9fb;
+  min-height: 100vh;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 450px;
+  width: 375px;
+  flex-direction: column;
+  gap: 35px;
+  border-radius: 0 20px 0 20px;
+  background: linear-gradient(#b3b3b3, #e2e2e2);
+  box-shadow: 8px 8px 8px gray;
+}
+
+.inputBox {
+  position: relative;
+  width: 250px;
+}
+
+.inputBox input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  color: #000;
+  font-size: 1em;
+  background: transparent;
+  border: 2px solid #000;
+  border-radius: 20px;
+  border-bottom: 2px solid #000;
+  transition: 0.1s;
+  text-align: center;
+}
+
+button {
+  height: 45px;
+  width: 100px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.5s;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background-color: #000;
+  color: white;
+}
